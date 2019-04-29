@@ -32,3 +32,4 @@ In addition, there are some other options if you wish to have more control over 
 * `--skiplong`. Skips songs longer than `--maxlen`. Default behavior is to truncate songs to `--maxlen`.
 * `--maxlen`. Maximum length for songs (in seconds) before truncation/skipping. Default is 360 seconds (6 minutes).
 
+The program will output a history.txt file containing the url's of all the albums that have been played, a curr_song.txt that has the artist and song time of the currently playing song, and a 256x256 curr_album.png that contains the current song's album cover.
